@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+	main {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			width: 100%;
+	}
+		
+	h2 {
+		font-family: 'Gamja Flower', cursive;
+		font-size: 50px;
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	table{
+		border-radius: 10px;
+		width: 900px;
+
+	}
+	
+	td, th {
+		padding: 10px;
+		border:1px solid #C4DEFF;
+		text-align: center;
+		font-family: Nanum Gothic;
+		font-weight: bold;
+		border-radius: 5px;
+		
+	}
+	
+	.list_view_btn{
+		padding-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+		
+	}
+	
+	input[type="button"]{
+		font-family: Nanum Gothic;
+		font-weight: bold;
+		padding: 10px;
+		width: 200px;
+		background-color: #C4DEFF;
+		border:none;
+		border-radius: 5px;
+	}
+	
+	input[type="button"]:hover{
+		background-color: #79ABFF;
+	}
+	
+	hr{
+		border: 1px dashed #C4DEFF;
+	}
+	
+	#comment_disp{
+		text-align: left;
+	}
+	
+	
+	img{
+		width: 300px;
+		height: 300px;
+	}
+	
+	
+	
+	
